@@ -6,6 +6,7 @@ import android.util.Log;
  * author : 唐鹏聪
  * date : 2022/6/16 12:39
  * description :
+ *   log util
  */
 public class ScanLog {
 
