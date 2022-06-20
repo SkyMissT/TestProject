@@ -2,15 +2,13 @@ package com.miss.lib_base.base.viewmodel
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
-import com.miss.lib_base.base.model.BaseModel
 import com.miss.lib_base.util.SingleLiveEvent
-import com.miss.lib_base.util.notNull
 
 /**
  *  author : 唐鹏聪
  *  date : 2022/5/30 22:06
  *  description :
- *      iewModel的基类 使用ViewModel类，放弃AndroidViewModel，原因：用处不大 完全有其他方式获取Application上下文
+ *      ViewModel的基类 使用ViewModel类，放弃AndroidViewModel，原因：用处不大 完全有其他方式获取Application上下文
  */
 open class BaseViewModel : ViewModel(), IBaseViewModel {
 
